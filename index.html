@@ -7,16 +7,17 @@
 
     <!-- VUE -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- custom script -->
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
     
     <div id="app">
-        <ul>
+        <ul v-if="rndMails.length === 10">
             <li v-for="curMail in rndMails"> {{ curMail }} </li>
         </ul>
-
     </div>
-
 
     <!-- axios -->
     <script
@@ -25,8 +26,5 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    
-    <!-- custom script -->
-    <script src="./js/script.js"></script>
 </body>
 </html>
