@@ -1,4 +1,4 @@
-- [ ] Consegna
+- [x] Consegna
 
 Attraverso l'apposita API di Boolean
 https://flynn.boolean.careers/exercises/api/random/mail
